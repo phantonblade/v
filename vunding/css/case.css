@@ -1,0 +1,51 @@
+section {
+    position: relative;
+    height: 95vh;
+}
+
+.main-sight {
+    padding: 0 !important;
+    height: 85vh;
+    background: url("../resource/06.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-sight h1 {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 20%;
+    text-shadow: 2px 2px #F6B45A;
+}
+
+.left-article {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.inline-picture {
+    width: 100%;
+}
+
+ol {
+    margin: inherit;
+    padding: inherit;
+}
+
+.right-top {
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 60%;
+    background: rgb(181, 180, 180);
+    color: white;
+    height: 200px;
+    font-size: 25px;
+    padding: 10px;
+}

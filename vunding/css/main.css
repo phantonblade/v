@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 98.9vw !important;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 60px;
+    background-color: #efefef;
+}
+
+.ui .message {
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+    box-shadow: none;
+}
+
+.ui .button {
+    text-transform: capitalize;
+}
+
+.fb-like {
+    vertical-align: middle;
+    float: right;
+}
+
+.container {
+    margin: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.slideshow-container {
+    padding: 0 !important;
+    height: 85vh;
+    background: url("../resource/16.jpg");
+    background-position: center 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slideshow {
+    background: none !important;
+}
+
+.ui.buttons .or:before {
+    content: '或';
+}
+
+.navbar {
+    margin: 0 auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.ui .card {
+    margin: 0 auto !important;
+}
+
+.title {
+    top: 30vh;
+}
+
+.title h1 {
+    font-size: 72px !important;
+}
+
+.title * {
+    color: white !important;
+    font-size: 48px;
+}
+
+.item {
+    line-height: 24px !important;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../resource/logo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo.mini {
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+}
+
+.logo.large {
+    vertical-align: sub;
+    width: 72px;
+    height: 72px;
+}
+
+.section {
+    height: 70vh;
+}
+
+.section.last {
+    height: 50vh;
+    margin: 0 auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.section-title {
+    padding-top: 10px !important;
+    font-size: 24px !important;
+    text-align: center;
+}
+
+.ui.progress {
+    margin-bottom: 1em !important;
+}
+
+.ui.card .visible.content, .ui.card .content {
+    height: 200px;
+}
+
+.ui.card .extra.content {
+    height: auto;
+}
+
+.fb-login-button {
+    left: 34%;
+}
